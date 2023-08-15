@@ -47,51 +47,50 @@ body {
         - change the cursor to pointer.
 */
 
+/* Styling theheading level 1 */
 h1 {
     font-size: 48px;
     margin: auto;
     text-align: center;
 }
 
+/* Styling the heading level 2 */
 h2 {
     margin-bottom: 12px;
     font-size: 36px;
-    
-    
 }
 
+/* Styling the text with a larger font size */
 .large-text {
     font-size: 24px;
 }
 
+/* Styling the button-like element with a fake appearance */
 .fake-button {
-    background-color: #E5AF42; 
+    background-color: #E5AF42;
     text-align: center;
     line-height: 3;
     border: 1px solid black;
 }
 
+/* Styling the links */
 a {
     text-decoration: none;
     color: black;
 }
 
+/* Styling the link while hover effects in the main content and footer */
 main a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+/* Styling the hover effect on the fake button and blue-hover class */
 .fake-button:hover, .blue-hover:hover {
-   
     background-color: #4278e5;
     text-decoration: underline;
     cursor: pointer;
     color: white;
 }
-
-
-
-
-
 
 
 /************* header/footer styling *************/
@@ -103,30 +102,36 @@ main a:hover, footer a:hover {
     - there will be 25px of space between the header and main, and 50px of space between main and footer.
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
-header, footer{
+/* Styling for the header and footer sections */
+header, footer {
     background-color: #E5AF42;
 }
 
-header{
+/* Styling for the header section */
+header {
     height: 150px;
     margin-bottom: 25px;
 }
 
-header img{
+/* Styling for the logo present in the header */
+header img {
     width: 100px;
     height: 100px;
     margin: 25px 0 25px 25px;
 }
 
-header h1{
+/* Styling for the heading within the header */
+header h1 {
     text-align: center;
 }
 
-main{
+/* Styling for the main section */
+main {
     margin-bottom: 50px;
 }
 
-footer{
+/* Styling for the footer section */
+footer {
     height: 60px;
     font-weight: 200;
     padding-top: 26px;
@@ -135,9 +140,6 @@ footer{
     text-align: center;
     justify-content: center;
 }
-
-
-
 
 /************* index page *************/
 
@@ -150,30 +152,34 @@ footer{
 */
 
 
-.index .left-column{
+/* Styling for the left column within the index class */
+.index .left-column {
     flex: 1;
 }
 
-.index img{
-   
+/* Styling for images within the index class */
+.index img {
     width: 300px;
     margin-left: 25px;
     margin-bottom: 50px;
 }
 
-.index h2{
+/* Styling for level 2 headings within the index class */
+.index h2 {
     line-height: 36px;
 }
 
-.index p{
+/* Styling for paragraphs within the index class */
+.index p {
     margin-bottom: 12px;
 }
 
-.index .fake-button{
-    
+/* Styling for fake buttons within the index class */
+.index .fake-button {
     width: 250px;
     margin: 0 75px;
 }
+
 
 
 
@@ -190,45 +196,52 @@ footer{
     - all items within the page will be centered within their available space.
 
 */
-.booking-page{
-    text-align: center; 
+/* Styling for the main booking page class */
+.booking-page {
+    text-align: center;
     margin: 0 auto;
-    font-size: 18px; 
+    font-size: 18px;
     width: 600px;
 }
 
-.day-selector{
+/* Styling for the day selector class */
+.day-selector {
     margin-left: 90px;
     margin-bottom: 12px;
-   
 }
 
-.booking-page li{
+/* Styling for list items within the booking page */
+.booking-page li {
     border: 1px solid black;
     width: 60px;
     display: inline-block;
-    margin: 0 12px 0 ; 
+    margin: 0 12px 0;
 }
 
+/* Styling in small buttons class*/
 .small-button {
-    padding: 5px; 
+    padding: 5px;
     border: 1px solid black;
-} 
+}
 
-.top-margin{
+/* Styling for adding top margin as well as bottom one also */
+.top-margin {
     margin-bottom: 12px;
     margin-top: 24px;
 }
 
-#clear-button{
-    margin: 0 auto 0 ; 
+/* Styling for the clear button */
+#clear-button {
+    margin: 0 auto 0;
     margin-bottom: 50px;
     width: 200px;
 }
 
-.clicked{
+/* Styling for a clicked/selected state */
+.clicked {
     background-color: #E5AF42;
 }
+
 
 
  
@@ -250,31 +263,37 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   
-  main.contact {
-
+/* Styling for the contact section within the main content */
+main.contact {
     align-items: center;
-    text-align: center;  
+    text-align: center;
     height: 420px;
     justify-content: center;
 }
 
+/* Styling for labels within the form */
 label {
     text-align: right;
     width: 150px;
     margin: 0px 24px;
     margin-bottom: 26px;
-   
 }
-input{
+
+/* Styling for input fields */
+input {
     width: 300px;
     display: flex;
     flex-direction: column;
 }
-textarea{
+
+/* Styling for textarea */
+textarea {
     height: 150px;
     width: 300px;
 }
-input, textarea, button{
+
+/* Styling the input, textarea, and button */
+input, textarea, button {
     line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -282,19 +301,19 @@ input, textarea, button{
     margin-bottom: 24px;
 }
 
-#submit-button{
+/* Styling the submit button with width,margin and border */
+#submit-button {
     width: 310px;
     margin-right: 35px;
     border: solid black 1px;
-
 }
-form{
+
+/* Styling for the form container with margin */
+form {
     margin-left: 208px;
 }
+
+/* Styling for text elements with margin */
 .text {
-    margin-bottom:  160px;
+    margin-bottom: 160px;
 }
-
-
-
-
